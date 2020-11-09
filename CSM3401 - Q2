@@ -1,0 +1,13 @@
+exercise 2
+string = "an apple is not a tomato"
+def solution1():
+    letter_app = app()
+    current_most_common_letter = string[0]
+    for letter in string:
+        if letter not in letter_dict:
+            letter_app[letter]=1
+            else:
+                if letter_app[letter]> letter_app[current_most_common_letter]:
+                    print(common_most_common_letter)
+                    return current_most_common_letter
+                print(solution1())

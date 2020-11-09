@@ -1,0 +1,16 @@
+ exercise 4
+ a) def multiple (list):
+    multiple_answer=0
+    for i in range (0,len(list))
+    return x * 2
+    x = augmented_multiply_by_two(10)
+    
+b) def multiply_by_three(x):
+    return x * 3
+augmented_multiply_by_three = multiply_output(multiply_by_three)
+x = augmented_multiply_by_three(10)
+
+c)def add_numbers(a, b):
+    return a + b
+decorated_function = augment_function(add_numbers, [print_arguments,multiply_output])
+x = decorated_function(3, 4)

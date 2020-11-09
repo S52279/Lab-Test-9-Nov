@@ -1,0 +1,7 @@
+exericse 3
+string = "I have Python exam"
+
+    def solution1():
+        return len(string.split(' '))
+
+    print(solution1())
